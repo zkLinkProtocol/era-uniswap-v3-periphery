@@ -48,8 +48,20 @@ export default {
       zksync: true,
       verifyURL: 'https://zksync2-mainnet-explorer.zksync.io/contract_verification',
     },
+    zklinkNovaSepoliaTestnet: {
+      url: 'https://sepolia.rpc.zklink.io',
+      ethNetwork: 'sepolia',
+      zksync: true,
+      verifyURL: 'https://sepolia.explorer.zklink.io/contract_verification',
+    },
+    zkLinkNovaMainnet: {
+      url: 'https://rpc.zklink.io',
+      ethNetwork: 'mainnet',
+      zksync: true,
+      verifyURL: 'https://explorer.zklink.io/contract_verification',
+    },
   },
-  defaultNetwork: 'zkSyncTestNode',
+  defaultNetwork: 'zklinkNovaSepoliaTestnet',
   solidity: {
     version: '0.7.6',
   },
