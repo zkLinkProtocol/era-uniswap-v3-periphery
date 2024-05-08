@@ -112,7 +112,7 @@ library NFTDescriptor {
         return
             string(
                 abi.encodePacked(
-                    'This NFT represents a liquidity position in a Yeswap V3 ',
+                    'This NFT represents a liquidity position in a Novaswap V3 ',
                     quoteTokenSymbol,
                     '-',
                     baseTokenSymbol,
@@ -160,7 +160,7 @@ library NFTDescriptor {
         return
             string(
                 abi.encodePacked(
-                    'Yeswap - ',
+                    'Novaswap - ',
                     feeTier,
                     ' - ',
                     escapeQuotes(params.quoteTokenSymbol),
